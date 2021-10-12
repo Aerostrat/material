@@ -1,3 +1,11 @@
+## 1.2.4 (2021-10-14)
+
+
+### Bug Fixes
+
+* **select:** revert to `$mdUtil.getClosest()` in `checkCloseMenu()` ([f237c79](https://github.com/Aerostrat/material/commit/f237c792057d81404ed60145cbe455e0e9182c25)), closes ([#12126](https://github.com/angular/material/issues/12126))
+
+
 ## [1.2.3](https://github.com/angular/material/compare/v1.2.2...v1.2.3) (2021-07-14)
 
 
