@@ -1908,8 +1908,8 @@ function SelectProvider($$interimElementProvider) {
             return;
           }
 
-          if (opts.focusedNode && opts.focusedNode.hasAttribute &&
-              !opts.focusedNode.hasAttribute('disabled')) {
+          var option = $mdUtil.getClosest(event.target, 'md-option');
+          if (option && option.hasAttribute && !option.hasAttribute('disabled')) {
             event.preventDefault();
             event.stopPropagation();
             if (!selectMenuController.isMultiple) {
